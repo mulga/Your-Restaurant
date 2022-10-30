@@ -25,7 +25,7 @@ const routes = [
   {
     name: "RestoUpdate",
     component: RestoUpdate,
-    path: "/resto-update",
+    path: "/resto-update/:id",
   },
   {
     name: "RestoAdd",
