@@ -23,12 +23,13 @@
       placeholder="Enter contact "
       v-model.trim="restaurant.contact"
     />
-    <button type="button" @click="addResto">Update restaurant</button>
+    <button type="button" @click="editResto">Update restaurant</button>
   </form>
 </template>
 
 <script>
 import HeaderApp from "@/components/HeaderApp.vue";
+import axios from "axios";
 export default {
   name: "RestoUpdate",
   components: {
@@ -43,13 +44,36 @@ export default {
       },
     };
   },
-  methods: {},
+  methods: {
+    async editResto() {
+      // console.log(this.restaurant);
+      // console.log(this.restaurant);
+      const result = await axios.put(
+        "http://localhost:3000/restaurants" + this.$route.params.id,
+        {
+          name: this.restaurant.name,
+          address: this.restaurant.address,
+          contact: this.restaurant.contact,
+        }
+      );
+      if (result.status == 200) {
+        this.$router.push({ name: "Home" });
+      }
+      // console.log(result);
+    },
+  },
 
-  mounted() {
+  async mounted() {
     let user = localStorage.getItem("user-info");
     if (!user) {
       this.$router.push({ name: "SignUp" });
     }
+    const result = await axios.get(
+      "http://localhost:3000/restaurants/" + this.$route.params.id
+    );
+    // console.log(this.$route.params.id);
+    // console.log(result.data);
+    this.restaurant = result.data;
   },
 };
 </script>

@@ -109,6 +109,24 @@
       "address": "Altenwoogstr. 27",
       "contact": "343",
       "id": 6
+    },
+    {
+      "name": "Deneme",
+      "address": "Altenwoogstr. 27",
+      "contact": "5656456",
+      "id": 7
+    },
+    {
+      "name": "Deneme2",
+      "address": "Altenwoogstr. 27",
+      "contact": "5656456",
+      "id": 8
+    },
+    {
+      "name": "Deneme3",
+      "address": "Altenwoogstr. 27",
+      "contact": "5656456",
+      "id": 9
     }
   ]
 }
