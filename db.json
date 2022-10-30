@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "email": "mehmetulga@gmail.com",
+      "name": "Mehmet",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Osman",
+      "email": "mehmet@mehmet.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Kamil",
+      "email": "a@a.co",
+      "password": "789",
+      "id": 3
+    },
+    {
+      "name": "Wayne",
+      "email": "wayne@mail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Mehmet",
+      "email": "a@a.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "ahmet",
+      "email": "a@a.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "dsdv",
+      "email": "a@a.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "sam",
+      "email": "sam@sa.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "sam",
+      "email": "a@a.com",
+      "password": "2234",
+      "id": 9
+    },
+    {
+      "name": "batman",
+      "email": "batman@batman.com",
+      "password": "12234",
+      "id": 10
+    },
+    {
+      "name": "osman",
+      "email": "a@a.com",
+      "password": "wewe",
+      "id": 11
+    },
+    {
+      "name": "fvfd",
+      "email": "a@a.com",
+      "password": "wew",
+      "id": 12
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "contact": "1234567890",
+      "address": "1234 Main St"
+    },
+    {
+      "id": 2,
+      "name": "Dominos ",
+      "contact": "1-945-909-6610 x979",
+      "address": "Dominos Pizza"
+    },
+    {
+      "name": "baba ",
+      "contact": "1-945-909-6610 x979",
+      "address": "Kenamah",
+      "id": 3
+    },
+    {
+      "name": "Kebaci",
+      "address": "Altenwoogstr. 27",
+      "contact": "987",
+      "id": 4
+    },
+    {
+      "name": "back",
+      "address": "Altenwoogstr. 27",
+      "contact": "5656456",
+      "id": 5
+    },
+    {
+      "name": "dfvdf",
+      "address": "Altenwoogstr. 27",
+      "contact": "343",
+      "id": 6
+    }
+  ]
+}
